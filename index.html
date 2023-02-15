@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine o MARK!!</title>
+    <link rel="icon" href="arquivos/claquete.png">
+    <link rel="stylesheet" href="arquivos/parte.css">
+</head>
+<body>
+    <div id="cinema">
+        <br>
+        <div id="nomeCliente">Digite seu nome: <input type="text" name="nome" id="ClienteDigita"><button class="confirNome"
+                onclick="confirNome()">enviar</button></div>
+        <h1>LISTA DE FILMES</h1>
+        <h3>Seleciona um filme</h3>
+        <div id="botoes">
+            <div id="botao1"><input type="radio" name="pesquisa" id="filme1">Pantera Negra: Wakanda Para Sempre</div>
+            <div id="botao2"><input type="radio" name="pesquisa" id="filme2">Avatar: O Caminho da Água</div>
+            <div id="botao3"><input type="radio" name="pesquisa" id="filme3">Interestelar</div>
+            <div id="botao4"><input type="radio" name="pesquisa" id="filme4">Moonfall - Ameaça Lunar</div>
+            <div id="botao5"><input type="radio" name="pesquisa" id="filme5">Avengers: Secret Wars</div>
+            <h3>Horários Disponíveis</h3>
+            <input type="radio" name="horario" id="horario1">13:00hr
+            <input type="radio" name="horario" id="horario4">16:00hr<br>
+            <input type="radio" name="horario" id="horario2">14:30hr
+            <input type="radio" name="horario" id="horario5">17:20hr<br>
+            <input type="radio" name="horario" id="horario3">15:50hr
+            <input type="radio" name="horario" id="horario6">18:00hr<br>
+        </div>
+        <br> <button onclick="confirmar()">Confirma</button>
+        <button class="reiniciarA" onclick="reiniciar()">Reiniciar</button>
+        <div id="resultado"></div>
+        <div id="resultad2"></div>
+        <script src="arquivos/parte.js"></script>
+    </div>
+</body>
+</html>

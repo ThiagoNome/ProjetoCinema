@@ -1,0 +1,25 @@
+  button {
+    background-color: #e71fdd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: initial;
+    font-size: 15px;
+    border-radius: 30px;
+  }
+  
+  button.reiniciarA {
+    background-color: #87098b;
+  }
+  
+  button.confirNome {
+    background-color: #e71fdd;
+  }
+
+  #resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  
